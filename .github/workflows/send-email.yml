@@ -100,7 +100,7 @@ jobs:
 
       - name: download attachment if attachment flag is true
         if: inputs.attachment-flag
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a
+        uses: actions/download-artifact@6b208ae046db98c579e8a3aa621ab581ff575935
         with:
           name: ${{ inputs.attachments }}
 
