@@ -59,7 +59,7 @@ jobs:
         run: tflint -f compact
 
       - name: Run Terrascan
-        uses: tenable/terrascan-action@81d74415906b5418095567a13d1ddb7f48c50cd2 # main
+        uses: tenable/terrascan-action@a4b0f7ec5fb3c4c66b8e76d824d958002f6ce12c # main
         with:
           iac_type: 'terraform'
           iac_version: 'v14'
